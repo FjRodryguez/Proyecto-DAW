@@ -1,0 +1,664 @@
+{
+  "principiante": [
+    {
+      "id": 1,
+      "nombre": "Introducción a la natación",
+      "descripcion": "Entrenamiento básico para principiantes que buscan mejorar su técnica de respiración y flotación.",
+      "duracion": "30 min",
+      "nivel": "Principiante",
+      "intensidad": "Baja",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 1,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Muy suave",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo a ritmo muy suave para activar el cuerpo."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 3,
+          "metros": 0,
+          "descanso": 15,
+          "ritmo": "N/A",
+          "estilo": "Espalda",
+          "descripcion": "Mantener la posición horizontal con la cara fuera del agua durante 30 segundos."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 25,
+          "descanso": 30,
+          "ritmo": "Moderado",
+          "estilo": "Crol",
+          "descripcion": "Sostener la tabla con los brazos extendidos y realizar la patada de crol."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 25,
+          "descanso": 20,
+          "ritmo": "Lento",
+          "estilo": "Crol",
+          "descripcion": "Practicar la respiración lateral cada 3 brazadas, alternando lados."
+        },
+        {
+          "repeticiones": 5,
+          "metros": 15,
+          "descanso": 20,
+          "ritmo": "N/A",
+          "estilo": "Posición streamline",
+          "descripcion": "Impulso desde la pared en posición hidrodinámica, manteniendo el deslizamiento."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 50,
+          "descanso": 0,
+          "ritmo": "Muy suave",
+          "estilo": "Libre o espalda",
+          "descripcion": "Nado continuo a ritmo muy suave para relajar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos de hombros, espalda y piernas para prevenir lesiones."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Mejora tu resistencia",
+      "descripcion": "Entrenamiento enfocado en aumentar gradualmente tu resistencia en el agua con ejercicios progresivos.",
+      "duracion": "45 min",
+      "nivel": "Principiante",
+      "intensidad": "Media-baja",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 2,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 60,
+          "ritmo": "Progresivo",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo aumentando gradualmente la intensidad cada 25 metros."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 4,
+          "metros": 50,
+          "descanso": 30,
+          "ritmo": "Moderado",
+          "estilo": "Crol",
+          "descripcion": "Nadar crol respirando alternadamente a ambos lados (cada 3 brazadas)."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 45,
+          "ritmo": "Moderado",
+          "estilo": "Espalda",
+          "descripcion": "Patada de espalda sosteniendo la tabla sobre el pecho o con los brazos extendidos."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 75,
+          "descanso": 45,
+          "ritmo": "Progresivo",
+          "estilo": "Libre",
+          "descripcion": "25m suave + 25m moderado + 25m rápido en cada serie."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 60,
+          "ritmo": "Suave",
+          "estilo": "Libre",
+          "descripcion": "Mantener un ritmo constante y cómodo durante toda la distancia."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 0,
+          "ritmo": "Muy suave",
+          "estilo": "Espalda o braza",
+          "descripcion": "Nado continuo a ritmo muy suave enfocándose en la técnica correcta."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos completos de todo el cuerpo, especialmente hombros y piernas."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Técnica de crol básica",
+      "descripcion": "Aprende y perfecciona la técnica del estilo crol con ejercicios específicos y progresivos.",
+      "duracion": "40 min",
+      "nivel": "Principiante",
+      "intensidad": "Baja",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 2,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Suave",
+          "estilo": "Variado",
+          "descripcion": "25m de cada estilo que conozcas a ritmo suave."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 3,
+          "metros": 25,
+          "descanso": 20,
+          "ritmo": "Lento",
+          "estilo": "Crol",
+          "descripcion": "Enfócate en mantener la cabeza en posición neutra y el cuerpo alineado."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 25,
+          "descanso": 30,
+          "ritmo": "Lento",
+          "estilo": "Crol",
+          "descripcion": "Nadar usando solo un brazo mientras el otro permanece extendido, alternando brazos en cada largo."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 45,
+          "ritmo": "Moderado",
+          "estilo": "Crol",
+          "descripcion": "Practicar la respiración lateral sincronizada con la brazada, respirando cada 3 brazadas."
+        },
+        {
+          "repeticiones": 2,
+          "metros": 75,
+          "descanso": 60,
+          "ritmo": "Moderado",
+          "estilo": "Crol",
+          "descripcion": "Nadar crol completo concentrándote en aplicar todos los aspectos técnicos practicados."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 75,
+          "descanso": 0,
+          "ritmo": "Muy suave",
+          "estilo": "Espalda",
+          "descripcion": "Nado continuo a ritmo muy suave para relajar los músculos."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos enfocados en hombros, tríceps y dorsales."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Introducción a la espalda",
+      "descripcion": "Entrenamiento para aprender los fundamentos del estilo espalda y mejorar la posición del cuerpo.",
+      "duracion": "35 min",
+      "nivel": "Principiante",
+      "intensidad": "Baja",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 1,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Suave",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo a ritmo suave para activar el cuerpo."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 3,
+          "metros": 0,
+          "descanso": 15,
+          "ritmo": "N/A",
+          "estilo": "Espalda",
+          "descripcion": "Mantener la posición horizontal de espalda con los brazos extendidos durante 30 segundos."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 25,
+          "descanso": 30,
+          "ritmo": "Moderado",
+          "estilo": "Espalda",
+          "descripcion": "Patada de espalda sosteniendo la tabla sobre el pecho o con los brazos extendidos."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 25,
+          "descanso": 30,
+          "ritmo": "Lento",
+          "estilo": "Espalda",
+          "descripcion": "Nadar usando solo un brazo mientras el otro permanece junto al cuerpo, alternando brazos en cada largo."
+        },
+        {
+          "repeticiones": 2,
+          "metros": 50,
+          "descanso": 45,
+          "ritmo": "Lento",
+          "estilo": "Espalda",
+          "descripcion": "Nadar espalda completa concentrándote en la técnica correcta y la posición del cuerpo."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 50,
+          "descanso": 0,
+          "ritmo": "Muy suave",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo a ritmo muy suave para relajar los músculos."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos enfocados en hombros, espalda y piernas."
+        }
+      ]
+    }
+  ],
+  "intermedio": [
+    {
+      "id": 5,
+      "nombre": "Entrenamiento HIIT acuático",
+      "descripcion": "Intervalos de alta intensidad para mejorar tu capacidad cardiovascular y quemar calorías.",
+      "duracion": "50 min",
+      "nivel": "Intermedio",
+      "intensidad": "Alta",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 3,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 200,
+          "descanso": 60,
+          "ritmo": "Progresivo",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo aumentando gradualmente la intensidad cada 50 metros."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 8,
+          "metros": 25,
+          "descanso": 20,
+          "ritmo": "Máximo",
+          "estilo": "Crol",
+          "descripcion": "Nado a máxima velocidad durante toda la distancia."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 50,
+          "descanso": 15,
+          "ritmo": "Moderado",
+          "estilo": "Libre",
+          "descripcion": "Nado a ritmo moderado para recuperar entre series intensas."
+        },
+        {
+          "repeticiones": 6,
+          "metros": 25,
+          "descanso": 30,
+          "ritmo": "Rápido",
+          "estilo": "Mariposa/Espalda",
+          "descripcion": "Alternar 25m de mariposa y 25m de espalda a ritmo rápido."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 25,
+          "descanso": 20,
+          "ritmo": "Máximo",
+          "estilo": "Variado",
+          "descripcion": "Patada explosiva con tabla, alternando estilos en cada serie."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Libre o espalda",
+          "descripcion": "Nado continuo a ritmo suave enfocándote en la técnica correcta."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos completos de todo el cuerpo para prevenir lesiones y facilitar la recuperación."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Perfeccionamiento de estilos",
+      "descripcion": "Mejora tu técnica en los cuatro estilos principales con ejercicios específicos para cada uno.",
+      "duracion": "60 min",
+      "nivel": "Intermedio",
+      "intensidad": "Media",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 2,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 200,
+          "descanso": 30,
+          "ritmo": "Suave",
+          "estilo": "Variado",
+          "descripcion": "50m de cada estilo a ritmo suave para activar todos los grupos musculares."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 20,
+          "ritmo": "Moderado",
+          "estilo": "Crol",
+          "descripcion": "Enfoque en la posición de la cabeza, rotación del cuerpo y tracción subacuática."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 20,
+          "ritmo": "Moderado",
+          "estilo": "Espalda",
+          "descripcion": "Enfoque en la posición horizontal, rotación de caderas y entrada de la mano."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 20,
+          "ritmo": "Moderado",
+          "estilo": "Braza",
+          "descripcion": "Enfoque en la coordinación brazada-patada-respiración y la fase de deslizamiento."
+        },
+        {
+          "repeticiones": 3,
+          "metros": 50,
+          "descanso": 20,
+          "ritmo": "Moderado",
+          "estilo": "Mariposa",
+          "descripcion": "Enfoque en el movimiento ondulatorio del cuerpo y la sincronización de brazos y piernas."
+        },
+        {
+          "repeticiones": 2,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Moderado-Rápido",
+          "estilo": "Estilos",
+          "descripcion": "Nado de 25m de cada estilo en orden reglamentario: mariposa, espalda, braza, crol."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 100,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo a ritmo suave enfocándote en mantener una técnica correcta."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos completos de todo el cuerpo, especialmente hombros, pecho y espalda."
+        }
+      ]
+    }
+  ],
+  "avanzado": [
+    {
+      "id": 7,
+      "nombre": "Entrenamiento de triatlón",
+      "descripcion": "Preparación específica para triatletas que buscan mejorar su rendimiento en la natación.",
+      "duracion": "75 min",
+      "nivel": "Avanzado",
+      "intensidad": "Alta",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 2,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 400,
+          "descanso": 60,
+          "ritmo": "Progresivo",
+          "estilo": "Libre",
+          "descripcion": "Nado continuo aumentando gradualmente la intensidad cada 100 metros."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 3,
+          "metros": 200,
+          "descanso": 30,
+          "ritmo": "Moderado-Alto",
+          "estilo": "Crol",
+          "descripcion": "Nado continuo sin tocar la pared (giro en medio de la piscina) para simular aguas abiertas."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 100,
+          "descanso": 20,
+          "ritmo": "Alto",
+          "estilo": "Crol",
+          "descripcion": "Practicar natación en grupo, siguiendo los pies del nadador de delante (si es posible con compañeros)."
+        },
+        {
+          "repeticiones": 5,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Variable",
+          "estilo": "Crol",
+          "descripcion": "75m a ritmo moderado + 25m a sprint, simulando aceleraciones en competición."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 800,
+          "descanso": 0,
+          "ritmo": "Competición",
+          "estilo": "Crol",
+          "descripcion": "Mantener el ritmo que utilizarías en una competición de triatlón."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 200,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Variado",
+          "descripcion": "Nado continuo alternando estilos a ritmo muy suave para relajar los músculos."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos completos de todo el cuerpo, especialmente hombros, espalda y piernas."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Series de competición",
+      "descripcion": "Entrenamiento de alta intensidad con series específicas para preparar competiciones.",
+      "duracion": "90 min",
+      "nivel": "Avanzado",
+      "intensidad": "Muy alta",
+      "seriesCalentamiento": 1,
+      "seriesPartePrincipal": 3,
+      "seriesVueltaCalma": 1,
+      "calentamiento": [
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Fuera del agua",
+          "descripcion": "Rotaciones de hombros, cuello y tobillos para preparar el cuerpo."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 400,
+          "descanso": 60,
+          "ritmo": "Progresivo",
+          "estilo": "Variado",
+          "descripcion": "100m de cada estilo a ritmo progresivo, enfocándote en la técnica correcta."
+        }
+      ],
+      "partePrincipal": [
+        {
+          "repeticiones": 10,
+          "metros": 50,
+          "descanso": 20,
+          "ritmo": "Máximo",
+          "estilo": "Crol",
+          "descripcion": "Sprint a máxima velocidad en cada repetición, manteniendo la técnica."
+        },
+        {
+          "repeticiones": 8,
+          "metros": 100,
+          "descanso": 30,
+          "ritmo": "Competición",
+          "estilo": "Crol",
+          "descripcion": "Mantener el ritmo de competición en cada repetición."
+        },
+        {
+          "repeticiones": 4,
+          "metros": 200,
+          "descanso": 45,
+          "ritmo": "Alto-Controlado",
+          "estilo": "Crol",
+          "descripcion": "Mantener un ritmo alto pero controlado, enfocándote en la eficiencia."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 400,
+          "descanso": 0,
+          "ritmo": "Progresivo",
+          "estilo": "Crol",
+          "descripcion": "Aumentar la velocidad cada 100m, terminando a máxima velocidad."
+        }
+      ],
+      "vueltaCalma": [
+        {
+          "repeticiones": 1,
+          "metros": 200,
+          "descanso": 0,
+          "ritmo": "Suave",
+          "estilo": "Variado",
+          "descripcion": "Nado continuo a ritmo muy suave alternando estilos para relajar los músculos."
+        },
+        {
+          "repeticiones": 1,
+          "metros": 0,
+          "descanso": 0,
+          "ritmo": "N/A",
+          "estilo": "Fuera del agua",
+          "descripcion": "Estiramientos completos de todo el cuerpo para facilitar la recuperación."
+        }
+      ]
+    }
+  ]
+}
